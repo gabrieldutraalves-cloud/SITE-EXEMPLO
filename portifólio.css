@@ -21,7 +21,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
 }
@@ -92,6 +92,7 @@ html {
 
 /* FIM MAIN */
 
+/* INÍCIO ABOUT */
 .about {
     background-color: white;
     width: 100%;
@@ -103,3 +104,93 @@ html {
     align-items: center;
     justify-content: space-between;
 }
+
+.about div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about img {
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+/* FIM  ABOUT */
+
+/* INÍCIO PROJECTS */
+.projects {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:80px 0 ;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.projects p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.project_list {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img {
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
+.projects img:hover {
+    opacity: 1.0;
+}
+
+.action {
+    background-color: #181818;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 18px;
+    cursor: pointer;
+}
+/* FIM PROJECTS */
+
+/* INÍCIO FOOTER */
+footer {
+    width: 100%;
+    background-color: #181818;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: #ffffff ;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff ;
+}
+
+footer p {
+    margin-left: 12px;
+}
+/* FIM FOOTER */
